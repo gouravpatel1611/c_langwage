@@ -1,0 +1,46 @@
+
+
+
+$ git config --global user.name gourav
+
+
+$ git config --global user.email gp1611gp@gmail.com
+
+
+$ touch .gitignore
+
+$ git init
+Initialized empty Git repository in G:/C Langwage/.git/
+
+
+$ git add .
+
+$ git commit -m "first commit"
+
+[master (root-commit) f879e96] first commit
+ 6 files changed, 147 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 main.c
+ create mode 100644 main.exe
+ create mode 100644 main.py
+ create mode 100644 unit_calculater.c
+ create mode 100644 unit_calculater.exe
+
+
+
+ $ git status
+On branch master
+nothing to commit, working tree clean
+
+$ git remote add origin git@github.com:gouravpatel1611/c_langwage.git
+
+
+$ ssh-keygen -t ed25519 -C "gp1611gp@gmail"
+
+
+
+$ cat /c/Users/"TEKLAL PATEL"/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICMFEl0Xay2emirkUCsDSYjgHPbd4cw8M+xIs8KbdYSl gp1611gp@gmail
+
+$ git push origin master
+
