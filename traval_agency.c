@@ -23,7 +23,7 @@ int main(){
     printf("\n");
     printf("\n");
     printf("\t Name(without space ):- ");
-    scanf("%s",driver1.name);
+    scanf("%s",&driver1.name);
     printf("\n");
     printf("\t Age:- ");
     scanf("%i",&driver1.age);
