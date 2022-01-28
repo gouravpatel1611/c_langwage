@@ -5,29 +5,29 @@
 
 int main(){
 
-  
-
     int id_len;
+    char* emp1 ;
     printf("~~ Wellcome To GRS P.L.C. ~~");
     printf("\n");
+
+    for (int i = 0; i < 3; i++)
+    {
+        
     printf("Enter your ID Length:- ");
     scanf("%d",&id_len);
     printf("\n");
-    char* emp1 ;
     emp1 = (char*) malloc((id_len+1)*sizeof(char));
     printf("Enter your Employ ID:- ");
-    scanf("%s",&emp1);
+    scanf("%s",emp1);
     printf("\n");
+    printf("YOur Id is :- %s",emp1);
+    printf("\n");
+    free(emp1);
+    }
 
-    
-    printf("%c",*(&emp1+1));
-    printf("\n");
-    // for (int i = 0; i < id_len; i++ )
-    // {
-    //     printf("%d",i);
-    // }
-    printf("\n");
-        
+
+
+  
 
 
 
