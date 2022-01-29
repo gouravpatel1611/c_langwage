@@ -1,0 +1,1 @@
+// coding karne layak kuch nhi hai bas video se samjh aa ja rha hai 

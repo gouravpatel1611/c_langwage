@@ -95,7 +95,7 @@ int main(){
         }
 
 
-        if (value == 1)
+        else if (value == 1)
         {
             if (random() == 1)
             {
@@ -116,7 +116,7 @@ int main(){
         }
 
 
-        if (value == 2)
+        else if (value == 2)
         {
             if (random() == 2)
             {
