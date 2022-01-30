@@ -1,9 +1,9 @@
 Hello,
         respected sir{},
 
-    Name :-  {{name}}
-    Item :-  {{item}}
-    Date :-  {{date}}
+    Name :-  gourav
+    Item :-  computer
+    Date :-  20-12-2020
         
 Thanks from purchesing on our shop. 
 
